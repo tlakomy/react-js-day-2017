@@ -1,0 +1,48 @@
+- Introduction
+- It's 2017, where are my flying cars?
+- We've been through this before
+- Virtual boy:
+	- Released in Japan in July 1995
+	- Discontinued in December 1995
+	- Clearly, we weren't ready
+- Are we ready now?
+- Nobody knows
+- Exciting times are ahead
+- Combine Duct tape & smarthphone
+- Result: GearVR/Google cardboard
+- We can be pioneers
+- What can it be used for?
+- "Virtual reality is just a platform - what matters is what goes through it" - dr Brennan Spiegel, Cedars-Sinai Medical Center
+- VR is not just games and porn
+- It can be so much more
+- Overcoming phobias
+- Samsung Be Fearless (http://l3apq3bncl82o596k2d1ydn1-wpengine.netdna-ssl.com/wp-content/uploads/2016/02/gear-vr-be-fearless-3-1024x572.png)
+- Fear of heights
+- Fear of public speaking (lol)
+- Virtual reality therapy grants final wishes to terminally ill
+- Tribemix Virtual Reality for Dementia Care
+- What does it have to do with web?
+- VR apps are huge (100 MB - 1GB)
+- URLs > App Stores
+- What do we use to build stuff on the web nowadays?
+- Oh yeah, React
+- What is ReactVR?
+- WebVR
+- Getting started
+- First demo app
+- Positioning items in 3D space
+- Transforms
+- Quick demo
+- Events
+- Unleash the hounds 
+- Thank you
+
+"Virtual reality is just a platform - what matters is what goes through it" - dr Brennan Spiegel, Cedars-Sinai Medical Center
+
+Links:
+https://www.youtube.com/watch?v=N3ywcoqR4Co - Tribemix Virtual Reality for Dementia Care
+https://www.youtube.com/watch?v=J6NwDrvTt-M - Virtual Reality helps hospice patients (PTSD)
+https://www.youtube.com/watch?v=o6nwSLdiJ7E - Transporting a hospitalized patient "home" via virtual reality
+https://www.youtube.com/watch?v=8E3LYBc_lfs - Virtual reality therapy grants final wishes to terminally ill
+https://www.youtube.com/watch?v=2F4XIQWL75c - Fear of Heights-How to Overcome Using Gear VR 2016
+
