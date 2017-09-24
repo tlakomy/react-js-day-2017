@@ -1,5 +1,5 @@
 {
-  "name": "WelcomeToVR",
+  "name": "MyLiveTour",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -10,12 +10,14 @@
     "test": "jest"
   },
   "dependencies": {
+    "live-tour-lab": "^0.2.2",
     "ovrui": "~1.4.0",
     "react": "~15.4.1",
     "react-native": "~0.42.0",
-    "three": "^0.80.1",
     "react-vr": "~1.4.0",
-    "react-vr-web": "~1.4.0"
+    "react-vr-web": "~1.4.0",
+    "simple-raycaster": "^1.0.1",
+    "three": "^0.80.1"
   },
   "devDependencies": {
     "babel-jest": "^19.0.0",

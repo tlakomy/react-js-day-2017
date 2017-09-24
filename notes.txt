@@ -1,14 +1,14 @@
 - Introduction
-- It's 2017, where are my flying cars?
+- It's 2017, where's my flying car?
 - We've been through this before
 - Virtual boy:
 	- Released in Japan in July 1995
 	- Discontinued in December 1995
 	- Clearly, we weren't ready
 - Are we ready now?
-- Nobody knows
+- Probably
 - Exciting times are ahead
-- Combine Duct tape & smarthphone
+- Combine Duct tape & smartphone
 - Result: GearVR/Google cardboard
 - We can be pioneers
 - What can it be used for?
@@ -21,7 +21,7 @@
 - Fear of public speaking (lol)
 - Virtual reality therapy grants final wishes to terminally ill
 - Tribemix Virtual Reality for Dementia Care
-- What does it have to do with web?
+- Why web?
 - VR apps are huge (100 MB - 1GB)
 - URLs > App Stores
 - What do we use to build stuff on the web nowadays?
@@ -34,8 +34,11 @@
 - Transforms
 - Quick demo
 - Events
-- Unleash the hounds 
+- Live Tour Lab
 - Thank you
+
+https://github.com/tlakomy/live-tour-lab ?
+
 
 "Virtual reality is just a platform - what matters is what goes through it" - dr Brennan Spiegel, Cedars-Sinai Medical Center
 

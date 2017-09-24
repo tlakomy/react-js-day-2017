@@ -1,13 +1,4 @@
-import React from 'react';
-import {
-  AppRegistry,
-  asset,
-  Pano,
-  Text,
-  View,
-} from 'react-vr';
-
-export default class WelcomeToVR extends React.Component {
+export default class HelloVR extends React.Component {
   render() {
     return (
       <View>
@@ -30,5 +21,3 @@ export default class WelcomeToVR extends React.Component {
     );
   }
 };
-
-AppRegistry.registerComponent('WelcomeToVR', () => WelcomeToVR);
