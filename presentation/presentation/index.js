@@ -32,6 +32,7 @@ const images = {
   mark: require("../assets/mark.jpg"),
   hellovr: require("../assets/hellovr.png"),
   axis: require("../assets/axis.png"),
+  vr: require("../assets/vr.jpg"),
 };
 
 preloader(images);
@@ -352,6 +353,79 @@ export default class Presentation extends React.Component {
               <Appear><ListItem>Matrix</ListItem></Appear>
             </List></Appear>
           </List>
+        </Slide>
+        <Slide bgColor="black" textColor="primary">
+          <Heading size={2} caps fit textColor="primary" textFont="primary">
+            Transforms are applied from right to left
+          </Heading>
+          <Layout>
+            <Fill>
+              <CodePane
+                lang="javascript"
+                textSize={20}
+                source={require("raw-loader!../assets/transform01.example")}
+              />
+            </Fill>
+            <Fill>
+              <CodePane
+                lang="javascript"
+                textSize={20}
+                source={require("raw-loader!../assets/transform02.example")}
+              />
+            </Fill>
+          </Layout>
+        </Slide>
+        <Slide bgColor="black">
+          <Heading size={2} caps fit textColor="primary" textFont="primary">
+            Events
+          </Heading>
+        </Slide>
+        <Slide bgColor="black" textColor="primary">
+          <Heading size={2} caps fit textColor="primary" textFont="primary">
+            Supported Input Events
+          </Heading>
+          <List>
+            <Appear><ListItem>onEnter</ListItem></Appear>
+            <Appear><ListItem>onExit</ListItem></Appear>
+            <Appear><ListItem>onMove</ListItem></Appear>
+            <Appear><ListItem>onInput</ListItem></Appear>
+            <Appear><List>
+              <ListItem>MouseInputEvent</ListItem>
+              <Appear><ListItem>KeyboardInputEvent</ListItem></Appear>
+              <Appear><ListItem>TouchInputEvent</ListItem></Appear>
+              <Appear><ListItem>GamepadInputEvent</ListItem></Appear>
+            </List></Appear>
+          </List>
+        </Slide>
+        <Slide bgColor="black">
+          <Heading size={2} caps fit textColor="primary" textFont="primary">
+            Allright, that's cool but...
+          </Heading>
+        </Slide>      
+        <Slide bgImage={images.vr.replace("/", "")} bgDarken={0.5}>
+          <Heading size={2} caps fit textColor="white">
+            Where's the VR?!
+          </Heading>
+        </Slide>
+        <Slide bgColor="black">
+          <Heading size={2} caps fit textColor="primary" textFont="primary">
+            THE DEMO
+          </Heading>
+        </Slide>
+        <Slide>
+          <Heading size={2} caps fit textFont="primary">
+            VR world is here
+          </Heading>
+        </Slide>
+        <Slide bgColor="black">
+          <Heading size={2} caps fit textColor="primary" textFont="primary">
+            Let's go and explore it together 😎
+          </Heading>
+        </Slide>
+        <Slide bgColor="black">
+          <Heading size={2} caps fit textColor="primary" textFont="primary">
+            Thank you! (Twitter: @tlakomy)
+          </Heading>
         </Slide>
       </Deck>
     );
