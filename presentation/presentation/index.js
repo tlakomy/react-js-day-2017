@@ -34,6 +34,7 @@ const images = {
   axis: require("../assets/axis.png"),
   vr: require("../assets/vr.jpg"),
   goodparts: require("../assets/goodparts.jpg"),
+  installing: require("../assets/installing.png"),
 };
 
 preloader(images);
@@ -47,16 +48,16 @@ export default class Presentation extends React.Component {
     return (
       <Deck contentWidth={1200} transition={["fade"]} theme={theme} transitionDuration={500}>
         <Slide bgColor="black">
-          <Heading size={1} fit caps textColor="primary">
+          <Heading fit caps textColor="primary">
             Introduction to ReactVR
           </Heading>
-          <Text size={1} caps textColor="white">
+          <Heading fit caps textColor="white">
              (Because 2D is not good enough)
-          </Text>
-          <Image fit src={images.egnyteLogo.replace("/", "")} height="200px" margin={0}/>
-          <Text caps textColor="white" margin={0}>
+          </Heading>
+          <Text fontSize={5} caps textColor="primary" margin="50px 0 0 0">
              Tomasz Łakomy (@tlakomy)
           </Text>
+          <Image fit src={images.egnyteLogo.replace("/", "")} height="150px" margin={0}/>
         </Slide>  
         <Slide bgColor="black">
           <Heading size={2} caps fit textColor="primary" textFont="primary">
@@ -164,6 +165,9 @@ export default class Presentation extends React.Component {
           <Heading size={2} caps fit textColor="primary" textFont="primary">
             URLs > App Stores
           </Heading>
+        </Slide>
+        <Slide bgColor="black">
+          <Image fit src={images.installing.replace("/", "")} height="600px"/>
         </Slide>
         <Slide bgColor="black">
           <Heading size={2} caps fit textColor="primary" textFont="primary">
