@@ -33,6 +33,7 @@ const images = {
   hellovr: require("../assets/hellovr.png"),
   axis: require("../assets/axis.png"),
   vr: require("../assets/vr.jpg"),
+  goodparts: require("../assets/goodparts.jpg"),
 };
 
 preloader(images);
@@ -60,21 +61,22 @@ export default class Presentation extends React.Component {
           </Heading>
         </Slide>
         <Slide bgImage={images.virtualboy.replace("/", "")}></Slide>
-        <Slide bgImage={images.mario.replace("/", "")}></Slide>
-        <Slide>
-          <Heading size={2} caps fit>
-            Available only in 🇯🇵 and 🇺🇸
-          </Heading>
-        </Slide>
-        <Slide>
-          <Heading size={2} caps fit>
-            Released in July 1995
-          </Heading>
-        </Slide>
-        <Slide>
-          <Heading size={2} caps fit>
-            Discontinued in December 1995
-          </Heading>
+        <Slide bgImage={images.mario.replace("/", "")}>
+          <Appear fid="1">
+            <Heading size={2} caps fit textColor="white">
+              Available only in 🇯🇵 and 🇺🇸
+            </Heading>
+          </Appear>
+          <Appear fid="2">
+            <Heading size={2} caps fit textColor="white" margin="20px 0">
+              Released in July 1995
+            </Heading>
+          </Appear>
+          <Appear fid="3">
+            <Heading size={2} caps fit textColor="white" margin="20px 0">
+              Discontinued in December 1995
+            </Heading>
+          </Appear>
         </Slide>
         <Slide bgColor="black">
           <Heading size={2} caps fit textColor="primary" textFont="primary">
@@ -117,6 +119,7 @@ export default class Presentation extends React.Component {
             <Cite>dr Brennan Spiegel, Cedars-Sinai Medical Center</Cite>
           </BlockQuote>
         </Slide>
+        <Slide bgImage={images.goodparts.replace("/", "")}></Slide>
         <Slide bgColor="black">
           <Heading size={2} caps fit textColor="primary" textFont="primary">
             VR is not just games and ... videos 😳
@@ -127,12 +130,11 @@ export default class Presentation extends React.Component {
             There's so much more
           </Heading>
         </Slide>
-        <Slide bgColor="black">
-          <Heading size={2} caps fit textColor="primary" textFont="primary">
-            Overcoming phobias
-          </Heading>
+        <Slide bgImage={images.phobias.replace("/", "")}>
+            <Heading size={2} caps fit textColor="primary" bgColor="black">
+              Overcoming phobias
+            </Heading>
         </Slide>
-        <Slide bgImage={images.phobias.replace("/", "")}></Slide>
         <Slide bgImage={images.befearless.replace("/", "")}></Slide>
         <Slide bgColor="black">
           <Heading size={2} caps fit textColor="primary" textFont="primary">
@@ -240,91 +242,91 @@ export default class Presentation extends React.Component {
             </Code>  
           </Layout>
         </Slide>
+        <Slide bgColor="black">
+          <Layout>
+            <Code size={2} fit textColor="primary" margin="0 0 0 20px">
+              · node_modules
+            </Code>
+          </Layout>
+          <Layout>
+            <Code size={2} fit textColor="primary" margin="0 0 0 20px"> 
+              · package.json
+            </Code>  
+          </Layout>
+          <Layout>
+            <Code size={2} fit textColor="primary" margin="0 0 0 20px">
+              · static_assets/
+            </Code>  
+          </Layout>
+          <Layout>
+            <Code size={2} fit textColor="primary" margin="0 0 0 60px">
+                · chess-world.jpg
+            </Code>  
+          </Layout>
+          <Layout>
+            <Code size={2} fit textColor="primary" margin="0 0 0 20px"> 
+              · vr/
+            </Code>  
+          </Layout>
+          <Layout>
+            <Code size={2} fit textColor="primary" margin="0 0 0 60px">
+                · client.js
+            </Code>  
+          </Layout>
+          <Layout>
+            <Code size={2} fit textColor="primary" margin="0 0 0 60px">
+                · index.html
+            </Code>  
+          </Layout>
+          <Layout>
+            <Code size={2} fit textColor="primary" margin="0 0 0 20px">
+              · index.vr.js
+            </Code>  
+          </Layout>
+        </Slide>
+        <Slide bgColor="black">
+          <Layout>
+            <Code size={2} fit textColor="gray" margin="0 0 0 20px">
+              · node_modules
+            </Code>
+          </Layout>
+          <Layout>
+            <Code size={2} fit textColor="gray" margin="0 0 0 20px"> 
+              · package.json
+            </Code>  
+          </Layout>
+          <Layout>
+            <Code size={2} fit textColor="gray" margin="0 0 0 20px">
+              · static_assets/
+            </Code>  
+          </Layout>
+          <Layout>
+            <Code size={2} fit textColor="gray" margin="0 0 0 60px">
+                · chess-world.jpg
+            </Code>  
+          </Layout>
+          <Layout>
+            <Code size={2} fit textColor="gray" margin="0 0 0 20px"> 
+              · vr/
+            </Code>  
+          </Layout>
+          <Layout>
+            <Code size={2} fit textColor="gray" margin="0 0 0 60px">
+                · client.js
+            </Code>  
+          </Layout>
+          <Layout>
+            <Code size={2} fit textColor="gray" margin="0 0 0 60px">
+                · index.html
+            </Code>  
+          </Layout>
+          <Layout>
+            <Code size={2} fit textColor="primary" margin="0 0 0 20px">
+              · index.vr.js
+            </Code>  
+          </Layout>
+        </Slide>
         <Slide bgImage={images.hellovr.replace("/", "")}></Slide>
-        <Slide bgColor="black">
-          <Layout>
-            <Code size={2} fit textColor="primary" margin="0 0 0 20px">
-              · node_modules
-            </Code>
-          </Layout>
-          <Layout>
-            <Code size={2} fit textColor="primary" margin="0 0 0 20px"> 
-              · package.json
-            </Code>  
-          </Layout>
-          <Layout>
-            <Code size={2} fit textColor="primary" margin="0 0 0 20px">
-              · static_assets/
-            </Code>  
-          </Layout>
-          <Layout>
-            <Code size={2} fit textColor="primary" margin="0 0 0 60px">
-                · chess-world.jpg
-            </Code>  
-          </Layout>
-          <Layout>
-            <Code size={2} fit textColor="primary" margin="0 0 0 20px"> 
-              · vr/
-            </Code>  
-          </Layout>
-          <Layout>
-            <Code size={2} fit textColor="primary" margin="0 0 0 60px">
-                · client.js
-            </Code>  
-          </Layout>
-          <Layout>
-            <Code size={2} fit textColor="primary" margin="0 0 0 60px">
-                · index.html
-            </Code>  
-          </Layout>
-          <Layout>
-            <Code size={2} fit textColor="primary" margin="0 0 0 20px">
-              · index.vr.js
-            </Code>  
-          </Layout>
-        </Slide>
-        <Slide bgColor="black">
-          <Layout>
-            <Code size={2} fit textColor="gray" margin="0 0 0 20px">
-              · node_modules
-            </Code>
-          </Layout>
-          <Layout>
-            <Code size={2} fit textColor="gray" margin="0 0 0 20px"> 
-              · package.json
-            </Code>  
-          </Layout>
-          <Layout>
-            <Code size={2} fit textColor="gray" margin="0 0 0 20px">
-              · static_assets/
-            </Code>  
-          </Layout>
-          <Layout>
-            <Code size={2} fit textColor="gray" margin="0 0 0 60px">
-                · chess-world.jpg
-            </Code>  
-          </Layout>
-          <Layout>
-            <Code size={2} fit textColor="gray" margin="0 0 0 20px"> 
-              · vr/
-            </Code>  
-          </Layout>
-          <Layout>
-            <Code size={2} fit textColor="gray" margin="0 0 0 60px">
-                · client.js
-            </Code>  
-          </Layout>
-          <Layout>
-            <Code size={2} fit textColor="gray" margin="0 0 0 60px">
-                · index.html
-            </Code>  
-          </Layout>
-          <Layout>
-            <Code size={2} fit textColor="primary" margin="0 0 0 20px">
-              · index.vr.js
-            </Code>  
-          </Layout>
-        </Slide>
         <Slide>
           <CodePane
             lang="javascript"
