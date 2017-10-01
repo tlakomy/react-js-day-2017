@@ -47,13 +47,16 @@ export default class Presentation extends React.Component {
     return (
       <Deck contentWidth={1200} transition={["fade"]} theme={theme} transitionDuration={500}>
         <Slide bgColor="black">
-          <Heading size={2} fit caps lineHeight={1} textColor="primary">
+          <Heading size={1} fit caps textColor="primary">
             Introduction to ReactVR
           </Heading>
-          <Heading size={1} fit caps>
-             Because 2D is not good enough
-          </Heading>
-          <Image fit src={images.egnyteLogo.replace("/", "")} height="200px"/>
+          <Text size={1} caps textColor="white">
+             (Because 2D is not good enough)
+          </Text>
+          <Image fit src={images.egnyteLogo.replace("/", "")} height="200px" margin={0}/>
+          <Text caps textColor="white" margin={0}>
+             Tomasz Łakomy (@tlakomy)
+          </Text>
         </Slide>  
         <Slide bgColor="black">
           <Heading size={2} caps fit textColor="primary" textFont="primary">
@@ -142,7 +145,6 @@ export default class Presentation extends React.Component {
           </Heading>
         </Slide>
         <Slide bgImage={images.dementia.replace("/", "")}></Slide>
-        <Slide bgImage={images.finalWishes.replace("/", "")}></Slide>
         <Slide bgColor="black">
           <Heading size={2} caps fit textColor="primary" textFont="primary">
             All this - and more, on the web!
@@ -175,7 +177,7 @@ export default class Presentation extends React.Component {
         </Slide>
         <Slide>
           <Heading size={2} caps fit>
-            Hello ReactVR
+            What is ReactVR?
           </Heading>
         </Slide>
         <Slide bgColor="black">
@@ -184,36 +186,9 @@ export default class Presentation extends React.Component {
           </Heading>
         </Slide>
         <Slide bgColor="black">
-          <Heading size={2} caps fit textColor="primary" textFont="primary">
-            Architecture
+          <Heading size={2} fit textColor="primary" textFont="primary">
+            WEBVR
           </Heading>
-        </Slide>
-        <Slide>
-          <Appear fid="5">
-            <Text fid="5" size={2} textColor="secondary" bgColor="white" margin={10}>
-              ReactVR
-            </Text>
-          </Appear>
-          <Appear fid="4">
-            <Text fid="4" size={4} textColor="secondary" bgColor="white" margin={10}>
-              React Runtime
-            </Text>
-          </Appear>
-          <Appear fid="3">
-            <Text fid="3" size={4} textColor="secondary" bgColor="white" margin={10}>
-              OVRUI
-            </Text>
-          </Appear>
-          <Appear fid="2">
-            <Text fid="2" size={4} textColor="secondary" bgColor="white" margin={10}>
-              Three.js
-            </Text>
-          </Appear>
-          <Appear fid="1">
-            <Text fid="1" size={4} textColor="secondary" bgColor="white" margin={10}>
-              WebVR and Browser
-            </Text>
-          </Appear>
         </Slide>
         <Slide>
           <Heading size={2} caps fit>
