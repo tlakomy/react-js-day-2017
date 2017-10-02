@@ -35,6 +35,8 @@ const images = {
   vr: require("../assets/vr.jpg"),
   goodparts: require("../assets/goodparts.jpg"),
   installing: require("../assets/installing.png"),
+  livetour: require("../assets/livetour.gif"),
+  json: require("../assets/json.gif"),
 };
 
 preloader(images);
@@ -393,6 +395,18 @@ export default class Presentation extends React.Component {
             THE DEMO
           </Heading>
         </Slide>
+        <Slide bgColor="black">
+          <Heading size={2} caps fit textColor="primary" textFont="primary">
+            LiveTourLab
+          </Heading>
+        </Slide> 
+        <Slide bgImage={images.livetour.replace("/", "")}></Slide>
+        <Slide bgImage={images.json.replace("/", "")}></Slide>
+        <Slide bgColor="black">
+          <Heading size={2} caps fit textColor="primary" textFont="primary">
+            Correct!
+          </Heading>
+        </Slide> 
         <Slide>
           <Heading size={2} caps fit textFont="primary">
             VR world is here
