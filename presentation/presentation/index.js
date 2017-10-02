@@ -396,9 +396,12 @@ export default class Presentation extends React.Component {
           </Heading>
         </Slide>
         <Slide bgColor="black">
-          <Heading size={2} caps fit textColor="primary" textFont="primary">
+          <Heading size={2} fit textColor="primary" textFont="primary">
             LiveTourLab
           </Heading>
+          <Text fontSize={5} caps textColor="primary" margin="50px 0 0 0">
+            by Anders Larsson
+          </Text>
         </Slide> 
         <Slide bgImage={images.livetour.replace("/", "")}></Slide>
         <Slide bgImage={images.json.replace("/", "")}></Slide>
